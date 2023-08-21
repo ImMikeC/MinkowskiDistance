@@ -5,8 +5,8 @@ import numpy as np
 from scipy.spatial.distance import minkowski
 
 # Initialize IBM NLU
-apikey = 'fB5mTAA8QIUzLL0ChVzorLacreeF74cadq_vCV3pPCAW'
-url = 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/4c85a534-bd8c-4267-afaf-8e93cc7ad8eb'
+apikey = ''
+url = ''
 
 authenticator = IAMAuthenticator( apikey )
 nlu = NaturalLanguageUnderstandingV1( version='2022-04-07', authenticator=authenticator )
